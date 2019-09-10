@@ -17,5 +17,8 @@ export const todos = [{
   }];
 
 export const reducer = (state, action) => {
-    return state
+    switch(action.type){
+        case 'add': 
+        return
+    }
 };
